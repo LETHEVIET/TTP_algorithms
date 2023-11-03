@@ -1,0 +1,27 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    baseName = 'ttplab'
+    version =  '1.1'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'mantesting.CLI'
+    }
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12-beta-1'
+}
