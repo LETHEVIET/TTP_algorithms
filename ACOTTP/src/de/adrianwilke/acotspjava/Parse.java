@@ -355,9 +355,6 @@ public class Parse {
         if (cmd.hasOption("fo")) {
             InOut.out_name_buf = cmd.getOptionValue("fo");
             System.out.println("-i/solfilename with argument " + InOut.name_buf);
-        } else {
-            System.err.println("Error: No output name file given");
-            System.exit(1);
         }
 
         return 0;

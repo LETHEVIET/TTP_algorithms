@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TTP-forDistribution-GECCO2015article">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/TTP-forDistribution-GECCO2015article.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
