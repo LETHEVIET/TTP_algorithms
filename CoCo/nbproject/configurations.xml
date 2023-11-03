@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>include/AllItemsBag.h</itemPath>
+      <itemPath>include/BitFlip.h</itemPath>
+      <itemPath>include/BoundaryItemsBag.h</itemPath>
+      <itemPath>include/CLKSolver.h</itemPath>
+      <itemPath>include/ItemsBag.h</itemPath>
+      <itemPath>include/Move.h</itemPath>
+      <itemPath>include/PGCH.h</itemPath>
+      <itemPath>include/ProBitFlip.h</itemPath>
+      <itemPath>include/ProTwoOPT.h</itemPath>
+      <itemPath>include/TTPInstance.h</itemPath>
+      <itemPath>include/TTPSolution.h</itemPath>
+      <itemPath>include/TTPSolver.h</itemPath>
+      <itemPath>include/TwoOPT.h</itemPath>
+      <itemPath>include/concorde.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/AllItemsBag.cpp</itemPath>
+      <itemPath>src/BitFlip.cpp</itemPath>
+      <itemPath>src/BoundaryItemsBag.cpp</itemPath>
+      <itemPath>src/CLKSolver.cpp</itemPath>
+      <itemPath>src/ItemsBag.cpp</itemPath>
+      <itemPath>src/PGCH.cpp</itemPath>
+      <itemPath>src/ProBitFlip.cpp</itemPath>
+      <itemPath>src/ProTwoOPT.cpp</itemPath>
+      <itemPath>src/TTPInstance.cpp</itemPath>
+      <itemPath>src/TTPSolution.cpp</itemPath>
+      <itemPath>src/TTPSolver.cpp</itemPath>
+      <itemPath>src/TwoOPT.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>lib/concorde.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="include/AllItemsBag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/BitFlip.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/BoundaryItemsBag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/CLKSolver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ItemsBag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Move.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/PGCH.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ProBitFlip.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ProTwoOPT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/TTPInstance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/TTPSolution.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/TTPSolver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/TwoOPT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/concorde.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/AllItemsBag.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/BitFlip.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/BoundaryItemsBag.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLKSolver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ItemsBag.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PGCH.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ProBitFlip.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ProTwoOPT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TTPInstance.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TTPSolution.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TTPSolver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TwoOPT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+          <commandLine>-std=gnu++11</commandLine>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>dlib-19.18</pElem>
+          </incDir>
+          <commandLine>-std=gnu++11</commandLine>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>lib/concorde.a</linkerLibFileItem>
+          </linkerLibItems>
+          <commandLine>-lpthread -lX11</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="include/AllItemsBag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/BitFlip.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/BoundaryItemsBag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/CLKSolver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ItemsBag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Move.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/PGCH.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ProBitFlip.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ProTwoOPT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/TTPInstance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/TTPSolution.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/TTPSolver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/TwoOPT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/concorde.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/AllItemsBag.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/BitFlip.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/BoundaryItemsBag.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLKSolver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ItemsBag.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PGCH.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ProBitFlip.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ProTwoOPT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TTPInstance.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TTPSolution.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TTPSolver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TwoOPT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" u574_n2865_uncorr-similar-weights_05  30 3 0.02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" tsp225_n224_bounded-strongly-corr_01  2000 3 0.02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" d198_n197_bounded-strongly-corr_01_05  2000 3 0.02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" dsj1000_n4995_uncorr-similar-weights_05  2000 3 0.02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" dsj1000_n4995_uncorr-similar-weights_05  3000 3 0.02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" d198_n197_bounded-strongly-corr_01  2000 3 0.02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" pr136_n675_uncorr-similar-weights_05  2000 3 0.02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" pr124_n1230_uncorr_10  2000 3 0.02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" a280_n279_uncorr_01  2000 3 0.02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" a280_n279_uncorr_01 100 4</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" a280_n279_uncorr_01 100 4</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+            <option name="debug_dir" value="/home/majid/Projects/C++/CoCo"/>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" d1291_n12900_uncorr_10  1000 4 .025</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" u574_n573_bounded-strongly-corr_01  1000 4 0.02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" fl1577_n15760_uncorr_10  1000 4 .02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" pla7397_n73960_uncorr_10  1000 4 .02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" u574_n5730_uncorr_10  600 4 .02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" fl1400_n13990_uncorr_10  1000 4 .025</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" u574_n5730_uncorr_01  1000 4 0.02</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" u574_n5730_uncorr_01  1000 4</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" u574_n5730_uncorr_10  1000 4</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" a280_n279_uncorr_01 100 4</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" a280_n279_uncorr_01 100 4</runcommand>
+        <rundir>/home/majid/Projects/C++/CoCo</rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
