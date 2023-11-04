@@ -72,7 +72,7 @@ public class Parse {
             opt.put("x", i++);
             opt.put("quiet", i++);
             opt.put("h", i++);
-            opt.put("fo", i++);
+            opt.put("do", i++);
             opt.put("debug", i++);
         }
 
@@ -122,8 +122,9 @@ public class Parse {
         options.addOption("quiet", false, "reduce output to a minimum, no extra files");
         options.addOption("boosting", false, "TTP: activates additional hillclimbers");
         options.addOption("h", "help", false, "display this help text and exit");
+        options.addOption("do", "soldirectory", true, "f name of solution dir");
 
-        options.addOption("fo", "solfilename", false, "name of solution files");
+//        options.addOption("do", "soldirectory", true, "f name of solution dir");
         options.addOption("debug", "debug", false, "debug flag");
 
         CommandLine cmd = null;
@@ -192,7 +193,7 @@ public class Parse {
 
         if (cmd.hasOption("i")) {
             InOut.name_buf = cmd.getOptionValue("i");
-            InOut.out_name_buf = cmd.getOptionValue("i");
+//            InOut.out_name_buf = cmd.getOptionValue("i");
             System.out.println("-i/tsplibfile File with argument " + InOut.name_buf);
         } else {
             System.err.println("Error: No input file given");
@@ -352,10 +353,10 @@ public class Parse {
             System.out.println("Note: Don't-look-bits flag is set to default " + LocalSearch.dlb_flag);
         }
 
-        if (cmd.hasOption("fo")) {
-            InOut.out_name_buf = cmd.getOptionValue("fo");
-            System.out.println("-i/solfilename with argument " + InOut.name_buf);
-        }
+//        if (cmd.hasOption("do")) {
+//            InOut.out_name_buf = cmd.getOptionValue("do");
+//            System.out.println("-i/solfilename with argument " + InOut.out_name_buf);
+//        }
 
         return 0;
     }

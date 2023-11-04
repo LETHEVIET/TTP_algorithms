@@ -746,7 +746,7 @@ public class AcoTsp {
         double aw_best_tour_length = Utilities.best_of_vector(InOut.best_in_try, InOut.max_tries);
         String aw_best_tour = InOut.aw_best_tour_in_try[Utilities.aw_best_tour_index()];
         try {
-            Writer w = new OutputStreamWriter(new FileOutputStream("tour." + Tsp.instance.name), "UTF8");
+            Writer w = new OutputStreamWriter(new FileOutputStream(InOut.solution_dir + "/tour." + Tsp.instance.name), "UTF8");
             BufferedWriter out = new BufferedWriter(w);
             out.write(aw_best_tour_length + "\n");
             out.write(aw_best_tour);

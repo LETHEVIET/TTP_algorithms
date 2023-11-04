@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14d43886-74e1-4a60-a811-3281734be1e6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ACOTTP/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACOTTP/src/de/adrianwilke/acotspjava/test/executable_script.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS2SA_star/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS2SA_star/.idea/artifacts/CS2SA_CLI_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS2SA_star/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS2SA_star/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS2SA_star/src/main/java/mantesting/CS2SA_CLI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS2SA_star/src/main/java/mantesting/RunExperiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACOTTP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ACOTTP/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACOTTP/src/de/adrianwilke/acotspjava/AcoTsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ACOTTP/src/de/adrianwilke/acotspjava/AcoTsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACOTTP/src/de/adrianwilke/acotspjava/InOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ACOTTP/src/de/adrianwilke/acotspjava/InOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACOTTP/src/de/adrianwilke/acotspjava/Parse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ACOTTP/src/de/adrianwilke/acotspjava/Parse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACOTTP/src/de/adrianwilke/acotspjava/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ACOTTP/src/de/adrianwilke/acotspjava/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS2SA_star/.idea/CS2SA_star.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS2SA_star/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CS2SA_star/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS2SA_star/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS2SA_star/build/classes/main/mantesting/CLI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS2SA_star/build/classes/main/mantesting/CLI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS2SA_star/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CS2SA_star/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS2SA_star/database/TTP1_data/a280-ttp/a280_n1395_uncorr-similar-weights_05.ttp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS2SA_star/database/TTP1_data/a280-ttp/a280_n2790_uncorr_10.ttp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS2SA_star/database/TTP1_data/a280-ttp/a280_n279_bounded-strongly-corr_01.ttp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS2SA_star/output/CS2SA-experiment.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS2SA_star/output/eampux.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS2SA_star/output/qtst-out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS2SA_star/src/main/java/mantesting/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CS2SA_star/src/main/java/mantesting/CLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWS.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2XhWw0sADCZfeIIrSG0WDb0QBxa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14d43886-74e1-4a60-a811-3281734be1e6" name="Changes" comment="" />
+      <created>1699082027281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699082027281</updated>
+    </task>
+    <servers />
+  </component>
+</project>

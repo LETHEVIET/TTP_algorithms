@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CS2SA_star.iml" filepath="$PROJECT_DIR$/.idea/CS2SA_star.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RWS.iml" filepath="$PROJECT_DIR$/RWS.iml" />
     </modules>
   </component>
 </project>

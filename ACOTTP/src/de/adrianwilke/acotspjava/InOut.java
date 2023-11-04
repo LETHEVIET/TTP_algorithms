@@ -10,6 +10,8 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.Reader;
 import java.io.Writer;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -115,7 +117,9 @@ public class InOut {
     private static Map<String, BufferedWriter> writer = new HashMap<String, BufferedWriter>();
 
     static String name_buf;
-    static String out_name_buf;
+    static String out_dir_buf;
+
+    public static String solution_dir = "solutions";
     static int opt;
     static boolean quiet_flag; /* --quiet was given in the command-line. */
 
@@ -160,7 +164,7 @@ public class InOut {
             }
 
             if (!found_coord_section) {
-                if (line.startsWith("NAME")) {
+                if (line.startsWith("PROBLEM NAME")) {
                     Tsp.instance.name = line.split(":")[1].trim();
                 } else if (line.startsWith("COMMENT")) {
                 } else if (line.startsWith("TYPE") && !line.contains("TSP")) {
@@ -203,6 +207,9 @@ public class InOut {
             if (line.startsWith("NODE_COORD_SECTION")) {
                 found_coord_section = true;
             }
+
+            Path p = Paths.get(tsp_file_name);
+            Tsp.instance.name = p.getFileName().toString();
 
             line = bufferedReader.readLine();
         }
@@ -638,22 +645,26 @@ public class InOut {
         assert (Ants.nn_ants > 0);
         assert (LocalSearch.nn_ls > 0);
 
+        //create solution files folder
+//        String dir = out_name_buf;
+//        File file = new File(dir);
+//        boolean mkdir = file.mkdirs();
         if (!quiet_flag) {
             Writer w;
             try {
-                temp_buffer = "best." + Tsp.instance.name;
+                temp_buffer = solution_dir + "/best." + Tsp.instance.name;
                 // // TRACE ( System.out.println("%s\n",temp_buffer); )
                 report = new File(temp_buffer);
                 w = new OutputStreamWriter(new FileOutputStream(temp_buffer), "UTF8");
                 writer.put(report.getName(), new BufferedWriter(w));
 
-                temp_buffer = "cmp." + Tsp.instance.name;
+                temp_buffer = solution_dir + "/cmp." + Tsp.instance.name;
                 // // TRACE ( System.out.println("%s\n",temp_buffer); )
                 comp_report = new File(temp_buffer);
                 w = new OutputStreamWriter(new FileOutputStream(temp_buffer), "UTF8");
                 writer.put(comp_report.getName(), new BufferedWriter(w));
 
-                temp_buffer = "stat." + Tsp.instance.name;
+                temp_buffer = solution_dir + "/stat." + Tsp.instance.name;
                 // // TRACE ( System.out.println("%s\n",temp_buffer); )
                 stat_report = new File(temp_buffer);
                 w = new OutputStreamWriter(new FileOutputStream(temp_buffer), "UTF8");

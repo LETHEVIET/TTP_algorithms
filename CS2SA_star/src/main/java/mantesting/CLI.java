@@ -25,7 +25,7 @@ public class CLI {
   public static void main(String[] args) {
 
     if (args.length < 2) {
-      args = new String[]{"eil76_n75_bounded-strongly-corr_01.ttp", "cs2sa"};
+      args = new String[]{"a280_n279_bounded-strongly-corr_01.ttp", "cs2sa"};
     }
 
     String[] spl = args[0].split("_",2);
@@ -44,7 +44,7 @@ public class CLI {
       outputFile = "./output/"+algoName+".csv";
 
     // runtime limit
-    long runtimeLimit = 600;
+    long runtimeLimit = 10;
     if (args.length >= 4)
       runtimeLimit = Long.parseLong(args[3]);
 

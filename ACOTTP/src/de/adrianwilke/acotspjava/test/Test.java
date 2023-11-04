@@ -59,7 +59,7 @@ public class Test {
     private static List<String> argList = new LinkedList<String>();
 
     public static void main(String[] args) {
-
+        System.out.println(TEST_FILE);
         // System.out.println(new File("").getAbsolutePath());
 
 //	argList.add("-h");
