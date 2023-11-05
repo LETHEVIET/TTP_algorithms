@@ -47,7 +47,7 @@ public class Driver {
 //             	args = new String[]{"instances", "eil51_n500_bounded-strongly-corr_10.ttp",
 //        	args = new String[]{"instances", "eil51_n50_bounded-strongly-corr_01.ttp", // PSSD
 //        	args = new String[]{"instances", "simple4_n6",                             // PSSD
-                args = new String[]{"instances", 
+                args = new String[]{"instance",
 //                    "rat195_n1940_bounded-strongly-corr_03.ttp",
 //                    "a280_n1395_uncorr-similar-weights_05",
 //                    "u724_n2169_bounded-strongly-corr_07.ttp",

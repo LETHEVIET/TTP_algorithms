@@ -2,3 +2,6 @@ build
 out
 test_notebook.ipynb
 output
+Solutions/S5/*
+Solutions/CS2SA/*
+
