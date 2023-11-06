@@ -60,7 +60,8 @@ public class S5_CLI {
 
         long minutes_passed = 1;
         long log_interval = 60 * 1000;
-
+        System.out.println("");
+        logs.add(new Pair<>(newSolution, new Long(0)));
         for(long lastDuration = 0L; currenttime < (startTime + maxRuntime) - lastDuration * 2D; lastDuration = currenttime - starttime)
         {
             starttime = System.currentTimeMillis();
@@ -71,6 +72,8 @@ public class S5_CLI {
             if ((currenttime - startTime) / log_interval >= minutes_passed){
                 logs.add(new Pair<>(newSolution, (currenttime - startTime)));
                 minutes_passed += (currenttime - startTime) / log_interval - minutes_passed + 1;
+                System.out.println("Time: "+ (currenttime - starttime));
+                newSolution.printFullForCCode();
             }
         }
         currenttime = System.currentTimeMillis();
